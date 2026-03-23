@@ -77,8 +77,8 @@ int main(int argc, char* argv[]) {
 
   for (int i = 0 ; i < N2 ; i++ ) {
     if (b[d].get_age() == b[i].get_age()) {
-      b[d].print_name();
-      std::cout<<"Age: "<<b[d].get_age()<<endl;
+      b[i].print_name();
+      std::cout<<"Age: "<<b[i].get_age()<<endl;
     }
   }
   
